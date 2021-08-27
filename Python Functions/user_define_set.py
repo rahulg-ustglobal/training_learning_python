@@ -1,0 +1,11 @@
+set1=set()
+n=int(input())
+for i in range(0,n):
+    items = input()
+    set1.add(items)
+print(set1)
+print("Which item you want to remove=")
+items2=input()
+set1.remove(items2)
+print("After the removel of one item from the set:=")
+print(set1)
